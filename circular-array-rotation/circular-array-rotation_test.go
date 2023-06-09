@@ -12,7 +12,7 @@ func testCircularArrayRotationSolution(t *testing.T, solutionFunc SolutionFuncTy
 		result := solutionFunc(tc.data.a, tc.data.k, tc.data.queries)
 
 		if !reflect.DeepEqual(result, tc.expected) {
-			t.Errorf("TestCase: %d; actual: %v%%; expected: %v%%", tc.id, result, tc.expected)
+			t.Errorf("TestCase: %d; actual: %v; expected: %v", tc.id, result, tc.expected)
 		}
 	}
 }
