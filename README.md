@@ -2,10 +2,16 @@
 
 ---
 
-#### To run to see the results of all problems
+#### To run to see the result of all problems
 
 ```bash
-go run ./
+go run ./main.go
+```
+
+### To run to see the result each problem
+
+```bash
+go run ./main.go problem-id
 ```
 
 #### To run all test suite for all problems
