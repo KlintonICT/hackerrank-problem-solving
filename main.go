@@ -6,6 +6,7 @@ import (
 	angry_professor "problem-solving/angry-professor"
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
+	weighted_uniform_strings "problem-solving/weighted-uniform-strings"
 	"strconv"
 	"strings"
 )
@@ -18,6 +19,7 @@ func main() {
 		1: circular_array_rotation.Run,
 		2: angry_professor.Run,
 		3: minimum_absolute_difference.Run,
+		4: weighted_uniform_strings.Run,
 	}
 
 	if len(args) > 0 {
