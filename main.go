@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	a_very_big_sum "problem-solving/a-very-big-sum"
 	angry_professor "problem-solving/angry-professor"
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
@@ -26,6 +27,7 @@ func main() {
 		5: solve_me_first.Run,
 		6: simple_array_sum.Run,
 		7: compare_the_triplets.Run,
+		8: a_very_big_sum.Run,
 	}
 
 	if len(args) > 0 {
