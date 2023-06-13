@@ -7,6 +7,7 @@ import (
 	angry_professor "problem-solving/angry-professor"
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
+	diagonal_difference "problem-solving/diagonal-difference"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
 	simple_array_sum "problem-solving/simple-array-sum"
 	solve_me_first "problem-solving/solve-me-first"
@@ -28,6 +29,7 @@ func main() {
 		6: simple_array_sum.Run,
 		7: compare_the_triplets.Run,
 		8: a_very_big_sum.Run,
+		9: diagonal_difference.Run,
 	}
 
 	if len(args) > 0 {
