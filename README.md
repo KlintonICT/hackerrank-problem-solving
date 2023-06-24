@@ -8,7 +8,7 @@
 go run ./main.go
 ```
 
-### To run to see the result each problem
+#### To run to see the result each problem
 
 ```bash
 go run ./main.go problem-id
