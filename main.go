@@ -5,6 +5,7 @@ import (
 	"os"
 	a_very_big_sum "problem-solving/a-very-big-sum"
 	angry_professor "problem-solving/angry-professor"
+	between_two_sets "problem-solving/between-two-sets"
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
 	diagonal_difference "problem-solving/diagonal-difference"
@@ -32,6 +33,7 @@ func main() {
 		8:  a_very_big_sum.Run,
 		9:  diagonal_difference.Run,
 		10: plus_minus.Run,
+		11: between_two_sets.Run,
 	}
 
 	if len(args) > 0 {
