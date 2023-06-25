@@ -13,6 +13,7 @@ import (
 	plus_minus "problem-solving/plus-minus"
 	simple_array_sum "problem-solving/simple-array-sum"
 	solve_me_first "problem-solving/solve-me-first"
+	staircase "problem-solving/staircase"
 	weighted_uniform_strings "problem-solving/weighted-uniform-strings"
 	"strconv"
 	"strings"
@@ -34,6 +35,7 @@ func main() {
 		9:  diagonal_difference.Run,
 		10: plus_minus.Run,
 		11: between_two_sets.Run,
+		12: staircase.Run,
 	}
 
 	if len(args) > 0 {
