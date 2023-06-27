@@ -9,6 +9,7 @@ import (
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
 	diagonal_difference "problem-solving/diagonal-difference"
+	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
 	plus_minus "problem-solving/plus-minus"
 	simple_array_sum "problem-solving/simple-array-sum"
@@ -36,6 +37,7 @@ func main() {
 		10: plus_minus.Run,
 		11: between_two_sets.Run,
 		12: staircase.Run,
+		13: mini_max_sum.Run,
 	}
 
 	if len(args) > 0 {
