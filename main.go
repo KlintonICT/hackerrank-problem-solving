@@ -6,6 +6,7 @@ import (
 	a_very_big_sum "problem-solving/a-very-big-sum"
 	angry_professor "problem-solving/angry-professor"
 	between_two_sets "problem-solving/between-two-sets"
+	birthday_cake_candles "problem-solving/birthday-cake-candles"
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
 	diagonal_difference "problem-solving/diagonal-difference"
@@ -38,6 +39,7 @@ func main() {
 		11: between_two_sets.Run,
 		12: staircase.Run,
 		13: mini_max_sum.Run,
+		14: birthday_cake_candles.Run,
 	}
 
 	if len(args) > 0 {
