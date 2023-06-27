@@ -10,6 +10,7 @@ import (
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
 	diagonal_difference "problem-solving/diagonal-difference"
+	grading_students "problem-solving/grading-students"
 	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
 	plus_minus "problem-solving/plus-minus"
@@ -42,6 +43,7 @@ func main() {
 		13: mini_max_sum.Run,
 		14: birthday_cake_candles.Run,
 		15: time_conversion.Run,
+		16: grading_students.Run,
 	}
 
 	if len(args) > 0 {
