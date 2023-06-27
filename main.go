@@ -16,6 +16,7 @@ import (
 	simple_array_sum "problem-solving/simple-array-sum"
 	solve_me_first "problem-solving/solve-me-first"
 	staircase "problem-solving/staircase"
+	time_conversion "problem-solving/time-conversion"
 	weighted_uniform_strings "problem-solving/weighted-uniform-strings"
 	"strconv"
 	"strings"
@@ -40,6 +41,7 @@ func main() {
 		12: staircase.Run,
 		13: mini_max_sum.Run,
 		14: birthday_cake_candles.Run,
+		15: time_conversion.Run,
 	}
 
 	if len(args) > 0 {
