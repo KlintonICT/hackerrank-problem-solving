@@ -5,6 +5,7 @@ import (
 	"os"
 	a_very_big_sum "problem-solving/a-very-big-sum"
 	angry_professor "problem-solving/angry-professor"
+	apple_and_orange "problem-solving/apple-and-orange"
 	between_two_sets "problem-solving/between-two-sets"
 	birthday_cake_candles "problem-solving/birthday-cake-candles"
 	circular_array_rotation "problem-solving/circular-array-rotation"
@@ -44,6 +45,7 @@ func main() {
 		14: birthday_cake_candles.Run,
 		15: time_conversion.Run,
 		16: grading_students.Run,
+		17: apple_and_orange.Run,
 	}
 
 	if len(args) > 0 {
