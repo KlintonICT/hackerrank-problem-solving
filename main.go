@@ -8,6 +8,7 @@ import (
 	apple_and_orange "problem-solving/apple-and-orange"
 	between_two_sets "problem-solving/between-two-sets"
 	birthday_cake_candles "problem-solving/birthday-cake-candles"
+	breaking_the_records "problem-solving/breaking-the-records"
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
 	diagonal_difference "problem-solving/diagonal-difference"
@@ -48,6 +49,7 @@ func main() {
 		16: grading_students.Run,
 		17: apple_and_orange.Run,
 		18: number_line_jumps.Run,
+		19: breaking_the_records.Run,
 	}
 
 	if len(args) > 0 {
