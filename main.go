@@ -14,6 +14,7 @@ import (
 	diagonal_difference "problem-solving/diagonal-difference"
 	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
 	grading_students "problem-solving/grading-students"
+	migratory_birds "problem-solving/migratory-birds"
 	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
 	number_line_jumps "problem-solving/number-line-jumps"
@@ -54,6 +55,7 @@ func main() {
 		19: breaking_the_records.Run,
 		20: subarray_division.Run,
 		21: divisible_sum_pairs.Run,
+		22: migratory_birds.Run,
 	}
 
 	if len(args) > 0 {
