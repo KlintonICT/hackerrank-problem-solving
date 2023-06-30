@@ -20,6 +20,7 @@ import (
 	simple_array_sum "problem-solving/simple-array-sum"
 	solve_me_first "problem-solving/solve-me-first"
 	staircase "problem-solving/staircase"
+	subarray_division "problem-solving/subarray-division"
 	time_conversion "problem-solving/time-conversion"
 	weighted_uniform_strings "problem-solving/weighted-uniform-strings"
 	"strconv"
@@ -50,6 +51,7 @@ func main() {
 		17: apple_and_orange.Run,
 		18: number_line_jumps.Run,
 		19: breaking_the_records.Run,
+		20: subarray_division.Run,
 	}
 
 	if len(args) > 0 {
