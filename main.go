@@ -11,6 +11,7 @@ import (
 	breaking_the_records "problem-solving/breaking-the-records"
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
+	day_of_the_programmer "problem-solving/day-of-the-programmer"
 	diagonal_difference "problem-solving/diagonal-difference"
 	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
 	grading_students "problem-solving/grading-students"
@@ -56,6 +57,7 @@ func main() {
 		20: subarray_division.Run,
 		21: divisible_sum_pairs.Run,
 		22: migratory_birds.Run,
+		23: day_of_the_programmer.Run,
 	}
 
 	if len(args) > 0 {
