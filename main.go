@@ -14,6 +14,7 @@ import (
 	grading_students "problem-solving/grading-students"
 	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
+	number_line_jumps "problem-solving/number-line-jumps"
 	plus_minus "problem-solving/plus-minus"
 	simple_array_sum "problem-solving/simple-array-sum"
 	solve_me_first "problem-solving/solve-me-first"
@@ -46,6 +47,7 @@ func main() {
 		15: time_conversion.Run,
 		16: grading_students.Run,
 		17: apple_and_orange.Run,
+		18: number_line_jumps.Run,
 	}
 
 	if len(args) > 0 {
