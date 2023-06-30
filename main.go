@@ -7,6 +7,7 @@ import (
 	angry_professor "problem-solving/angry-professor"
 	apple_and_orange "problem-solving/apple-and-orange"
 	between_two_sets "problem-solving/between-two-sets"
+	bill_division "problem-solving/bill-division"
 	birthday_cake_candles "problem-solving/birthday-cake-candles"
 	breaking_the_records "problem-solving/breaking-the-records"
 	circular_array_rotation "problem-solving/circular-array-rotation"
@@ -58,6 +59,7 @@ func main() {
 		21: divisible_sum_pairs.Run,
 		22: migratory_birds.Run,
 		23: day_of_the_programmer.Run,
+		24: bill_division.Run,
 	}
 
 	if len(args) > 0 {
