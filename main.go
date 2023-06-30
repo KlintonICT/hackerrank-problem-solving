@@ -12,6 +12,7 @@ import (
 	breaking_the_records "problem-solving/breaking-the-records"
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
+	counting_valleys "problem-solving/counting-valleys"
 	day_of_the_programmer "problem-solving/day-of-the-programmer"
 	diagonal_difference "problem-solving/diagonal-difference"
 	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
@@ -64,6 +65,7 @@ func main() {
 		24: bill_division.Run,
 		25: sales_by_match.Run,
 		26: drawing_book.Run,
+		27: counting_valleys.Run,
 	}
 
 	if len(args) > 0 {
