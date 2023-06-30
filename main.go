@@ -21,6 +21,7 @@ import (
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
 	number_line_jumps "problem-solving/number-line-jumps"
 	plus_minus "problem-solving/plus-minus"
+	sales_by_match "problem-solving/sales-by-match"
 	simple_array_sum "problem-solving/simple-array-sum"
 	solve_me_first "problem-solving/solve-me-first"
 	staircase "problem-solving/staircase"
@@ -60,6 +61,7 @@ func main() {
 		22: migratory_birds.Run,
 		23: day_of_the_programmer.Run,
 		24: bill_division.Run,
+		25: sales_by_match.Run,
 	}
 
 	if len(args) > 0 {
