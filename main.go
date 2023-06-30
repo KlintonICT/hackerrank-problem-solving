@@ -12,6 +12,7 @@ import (
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
 	diagonal_difference "problem-solving/diagonal-difference"
+	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
 	grading_students "problem-solving/grading-students"
 	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
@@ -52,6 +53,7 @@ func main() {
 		18: number_line_jumps.Run,
 		19: breaking_the_records.Run,
 		20: subarray_division.Run,
+		21: divisible_sum_pairs.Run,
 	}
 
 	if len(args) > 0 {
