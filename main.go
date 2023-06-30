@@ -15,6 +15,7 @@ import (
 	day_of_the_programmer "problem-solving/day-of-the-programmer"
 	diagonal_difference "problem-solving/diagonal-difference"
 	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
+	drawing_book "problem-solving/drawing-book"
 	grading_students "problem-solving/grading-students"
 	migratory_birds "problem-solving/migratory-birds"
 	mini_max_sum "problem-solving/mini-max-sum"
@@ -62,6 +63,7 @@ func main() {
 		23: day_of_the_programmer.Run,
 		24: bill_division.Run,
 		25: sales_by_match.Run,
+		26: drawing_book.Run,
 	}
 
 	if len(args) > 0 {
