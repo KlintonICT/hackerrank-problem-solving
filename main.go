@@ -8,6 +8,7 @@ import (
 	apple_and_orange "problem-solving/apple-and-orange"
 	beautiful_days_at_the_movies "problem-solving/beautiful-days-at-the-movies"
 	between_two_sets "problem-solving/between-two-sets"
+	big_sorting "problem-solving/big-sorting"
 	bill_division "problem-solving/bill-division"
 	birthday_cake_candles "problem-solving/birthday-cake-candles"
 	breaking_the_records "problem-solving/breaking-the-records"
@@ -88,6 +89,7 @@ func main() {
 		36: viral_advertising.Run,
 		37: save_the_prisoner.Run,
 		38: jumping_on_the_clouds_revisited.Run,
+		39: big_sorting.Run,
 	}
 
 	if len(args) > 0 {
