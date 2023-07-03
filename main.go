@@ -10,6 +10,7 @@ import (
 	bill_division "problem-solving/bill-division"
 	birthday_cake_candles "problem-solving/birthday-cake-candles"
 	breaking_the_records "problem-solving/breaking-the-records"
+	cats_and_a_mouse "problem-solving/cats-and-a-mouse"
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
 	counting_valleys "problem-solving/counting-valleys"
@@ -68,6 +69,7 @@ func main() {
 		26: drawing_book.Run,
 		27: counting_valleys.Run,
 		28: electronics_shop.Run,
+		29: cats_and_a_mouse.Run,
 	}
 
 	if len(args) > 0 {
