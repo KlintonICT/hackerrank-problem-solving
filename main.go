@@ -23,6 +23,7 @@ import (
 	electronics_shop "problem-solving/electronics-shop"
 	forming_a_magic_square "problem-solving/forming-a-magic-square"
 	grading_students "problem-solving/grading-students"
+	jumping_on_the_clouds_revisited "problem-solving/jumping-on-the-clouds-revisited"
 	migratory_birds "problem-solving/migratory-birds"
 	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
@@ -86,6 +87,7 @@ func main() {
 		35: beautiful_days_at_the_movies.Run,
 		36: viral_advertising.Run,
 		37: save_the_prisoner.Run,
+		38: jumping_on_the_clouds_revisited.Run,
 	}
 
 	if len(args) > 0 {
