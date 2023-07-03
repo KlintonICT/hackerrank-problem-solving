@@ -25,6 +25,7 @@ import (
 	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
 	number_line_jumps "problem-solving/number-line-jumps"
+	picking_numbers "problem-solving/picking-numbers"
 	plus_minus "problem-solving/plus-minus"
 	sales_by_match "problem-solving/sales-by-match"
 	simple_array_sum "problem-solving/simple-array-sum"
@@ -72,6 +73,7 @@ func main() {
 		28: electronics_shop.Run,
 		29: cats_and_a_mouse.Run,
 		30: forming_a_magic_square.Run,
+		31: picking_numbers.Run,
 	}
 
 	if len(args) > 0 {
