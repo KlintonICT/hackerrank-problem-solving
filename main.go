@@ -24,6 +24,7 @@ import (
 	electronics_shop "problem-solving/electronics-shop"
 	forming_a_magic_square "problem-solving/forming-a-magic-square"
 	grading_students "problem-solving/grading-students"
+	into_to_tutorial_challenges "problem-solving/intro-to-tutorial-challenges"
 	jumping_on_the_clouds_revisited "problem-solving/jumping-on-the-clouds-revisited"
 	migratory_birds "problem-solving/migratory-birds"
 	mini_max_sum "problem-solving/mini-max-sum"
@@ -90,6 +91,7 @@ func main() {
 		37: save_the_prisoner.Run,
 		38: jumping_on_the_clouds_revisited.Run,
 		39: big_sorting.Run,
+		40: into_to_tutorial_challenges.Run,
 	}
 
 	if len(args) > 0 {
