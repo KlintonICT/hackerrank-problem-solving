@@ -30,6 +30,7 @@ import (
 	picking_numbers "problem-solving/picking-numbers"
 	plus_minus "problem-solving/plus-minus"
 	sales_by_match "problem-solving/sales-by-match"
+	save_the_prisoner "problem-solving/save-the-prisoner"
 	simple_array_sum "problem-solving/simple-array-sum"
 	solve_me_first "problem-solving/solve-me-first"
 	staircase "problem-solving/staircase"
@@ -84,6 +85,7 @@ func main() {
 		34: utopian_tree.Run,
 		35: beautiful_days_at_the_movies.Run,
 		36: viral_advertising.Run,
+		37: save_the_prisoner.Run,
 	}
 
 	if len(args) > 0 {
