@@ -37,6 +37,7 @@ import (
 	plus_minus "problem-solving/plus-minus"
 	sales_by_match "problem-solving/sales-by-match"
 	save_the_prisoner "problem-solving/save-the-prisoner"
+	sequence_equation "problem-solving/sequence-equation"
 	simple_array_sum "problem-solving/simple-array-sum"
 	solve_me_first "problem-solving/solve-me-first"
 	staircase "problem-solving/staircase"
@@ -98,6 +99,7 @@ func main() {
 		41: mars_exploration.Run,
 		42: hackerrank_in_a_string.Run,
 		43: pangrams.Run,
+		44: sequence_equation.Run,
 	}
 
 	if len(args) > 0 {
