@@ -22,6 +22,7 @@ import (
 	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
 	drawing_book "problem-solving/drawing-book"
 	electronics_shop "problem-solving/electronics-shop"
+	find_digits "problem-solving/find-digits"
 	forming_a_magic_square "problem-solving/forming-a-magic-square"
 	grading_students "problem-solving/grading-students"
 	hackerrank_in_a_string "problem-solving/hackerrank-in-a-string"
@@ -100,6 +101,7 @@ func main() {
 		42: hackerrank_in_a_string.Run,
 		43: pangrams.Run,
 		44: sequence_equation.Run,
+		45: find_digits.Run,
 	}
 
 	if len(args) > 0 {
