@@ -37,6 +37,7 @@ import (
 	the_hurdle_race "problem-solving/the-hurdle-race"
 	time_conversion "problem-solving/time-conversion"
 	utopian_tree "problem-solving/utopian-tree"
+	viral_advertising "problem-solving/viral-advertising"
 	weighted_uniform_strings "problem-solving/weighted-uniform-strings"
 	"strconv"
 	"strings"
@@ -82,6 +83,7 @@ func main() {
 		33: designer_pdf_viewer.Run,
 		34: utopian_tree.Run,
 		35: beautiful_days_at_the_movies.Run,
+		36: viral_advertising.Run,
 	}
 
 	if len(args) > 0 {
