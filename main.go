@@ -32,6 +32,7 @@ import (
 	solve_me_first "problem-solving/solve-me-first"
 	staircase "problem-solving/staircase"
 	subarray_division "problem-solving/subarray-division"
+	the_hurdle_race "problem-solving/the-hurdle-race"
 	time_conversion "problem-solving/time-conversion"
 	weighted_uniform_strings "problem-solving/weighted-uniform-strings"
 	"strconv"
@@ -74,6 +75,7 @@ func main() {
 		29: cats_and_a_mouse.Run,
 		30: forming_a_magic_square.Run,
 		31: picking_numbers.Run,
+		32: the_hurdle_race.Run,
 	}
 
 	if len(args) > 0 {
