@@ -32,6 +32,7 @@ import (
 	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
 	number_line_jumps "problem-solving/number-line-jumps"
+	pangrams "problem-solving/pangrams"
 	picking_numbers "problem-solving/picking-numbers"
 	plus_minus "problem-solving/plus-minus"
 	sales_by_match "problem-solving/sales-by-match"
@@ -96,6 +97,7 @@ func main() {
 		40: into_to_tutorial_challenges.Run,
 		41: mars_exploration.Run,
 		42: hackerrank_in_a_string.Run,
+		43: pangrams.Run,
 	}
 
 	if len(args) > 0 {
