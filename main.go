@@ -19,6 +19,7 @@ import (
 	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
 	drawing_book "problem-solving/drawing-book"
 	electronics_shop "problem-solving/electronics-shop"
+	forming_a_magic_square "problem-solving/forming-a-magic-square"
 	grading_students "problem-solving/grading-students"
 	migratory_birds "problem-solving/migratory-birds"
 	mini_max_sum "problem-solving/mini-max-sum"
@@ -70,6 +71,7 @@ func main() {
 		27: counting_valleys.Run,
 		28: electronics_shop.Run,
 		29: cats_and_a_mouse.Run,
+		30: forming_a_magic_square.Run,
 	}
 
 	if len(args) > 0 {
