@@ -26,6 +26,7 @@ import (
 	grading_students "problem-solving/grading-students"
 	into_to_tutorial_challenges "problem-solving/intro-to-tutorial-challenges"
 	jumping_on_the_clouds_revisited "problem-solving/jumping-on-the-clouds-revisited"
+	mars_exploration "problem-solving/mars-exploration"
 	migratory_birds "problem-solving/migratory-birds"
 	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
@@ -92,6 +93,7 @@ func main() {
 		38: jumping_on_the_clouds_revisited.Run,
 		39: big_sorting.Run,
 		40: into_to_tutorial_challenges.Run,
+		41: mars_exploration.Run,
 	}
 
 	if len(args) > 0 {
