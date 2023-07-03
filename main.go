@@ -35,6 +35,7 @@ import (
 	subarray_division "problem-solving/subarray-division"
 	the_hurdle_race "problem-solving/the-hurdle-race"
 	time_conversion "problem-solving/time-conversion"
+	utopian_tree "problem-solving/utopian-tree"
 	weighted_uniform_strings "problem-solving/weighted-uniform-strings"
 	"strconv"
 	"strings"
@@ -78,6 +79,7 @@ func main() {
 		31: picking_numbers.Run,
 		32: the_hurdle_race.Run,
 		33: designer_pdf_viewer.Run,
+		34: utopian_tree.Run,
 	}
 
 	if len(args) > 0 {
