@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestAngryProfessor(t *testing.T) {
+func TestSaveThePrisoner(t *testing.T) {
 	tc := &TestCase{}
 
 	for _, tc := range tc.getTestCases() {

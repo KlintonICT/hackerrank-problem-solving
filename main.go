@@ -24,6 +24,7 @@ import (
 	electronics_shop "problem-solving/electronics-shop"
 	forming_a_magic_square "problem-solving/forming-a-magic-square"
 	grading_students "problem-solving/grading-students"
+	hackerrank_in_a_string "problem-solving/hackerrank-in-a-string"
 	into_to_tutorial_challenges "problem-solving/intro-to-tutorial-challenges"
 	jumping_on_the_clouds_revisited "problem-solving/jumping-on-the-clouds-revisited"
 	mars_exploration "problem-solving/mars-exploration"
@@ -94,6 +95,7 @@ func main() {
 		39: big_sorting.Run,
 		40: into_to_tutorial_challenges.Run,
 		41: mars_exploration.Run,
+		42: hackerrank_in_a_string.Run,
 	}
 
 	if len(args) > 0 {

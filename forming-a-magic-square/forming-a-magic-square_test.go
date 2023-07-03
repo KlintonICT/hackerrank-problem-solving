@@ -2,7 +2,7 @@ package forming_a_magic_square
 
 import "testing"
 
-func TestAngryProfessor(t *testing.T) {
+func TestFormingMagicSquare(t *testing.T) {
 	tc := &TestCase{}
 
 	for _, tc := range tc.getTestCases() {
