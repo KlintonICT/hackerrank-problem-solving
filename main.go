@@ -15,6 +15,7 @@ import (
 	compare_the_triplets "problem-solving/compare-the-triplets"
 	counting_valleys "problem-solving/counting-valleys"
 	day_of_the_programmer "problem-solving/day-of-the-programmer"
+	designer_pdf_viewer "problem-solving/designer-pdf-viewer"
 	diagonal_difference "problem-solving/diagonal-difference"
 	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
 	drawing_book "problem-solving/drawing-book"
@@ -76,6 +77,7 @@ func main() {
 		30: forming_a_magic_square.Run,
 		31: picking_numbers.Run,
 		32: the_hurdle_race.Run,
+		33: designer_pdf_viewer.Run,
 	}
 
 	if len(args) > 0 {
