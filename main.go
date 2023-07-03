@@ -6,6 +6,7 @@ import (
 	a_very_big_sum "problem-solving/a-very-big-sum"
 	angry_professor "problem-solving/angry-professor"
 	apple_and_orange "problem-solving/apple-and-orange"
+	beautiful_days_at_the_movies "problem-solving/beautiful-days-at-the-movies"
 	between_two_sets "problem-solving/between-two-sets"
 	bill_division "problem-solving/bill-division"
 	birthday_cake_candles "problem-solving/birthday-cake-candles"
@@ -80,6 +81,7 @@ func main() {
 		32: the_hurdle_race.Run,
 		33: designer_pdf_viewer.Run,
 		34: utopian_tree.Run,
+		35: beautiful_days_at_the_movies.Run,
 	}
 
 	if len(args) > 0 {
