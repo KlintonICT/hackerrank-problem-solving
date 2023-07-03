@@ -17,6 +17,7 @@ import (
 	diagonal_difference "problem-solving/diagonal-difference"
 	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
 	drawing_book "problem-solving/drawing-book"
+	electronics_shop "problem-solving/electronics-shop"
 	grading_students "problem-solving/grading-students"
 	migratory_birds "problem-solving/migratory-birds"
 	mini_max_sum "problem-solving/mini-max-sum"
@@ -66,6 +67,7 @@ func main() {
 		25: sales_by_match.Run,
 		26: drawing_book.Run,
 		27: counting_valleys.Run,
+		28: electronics_shop.Run,
 	}
 
 	if len(args) > 0 {
