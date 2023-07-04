@@ -17,6 +17,7 @@ import (
 	circular_array_rotation "problem-solving/circular-array-rotation"
 	compare_the_triplets "problem-solving/compare-the-triplets"
 	counting_valleys "problem-solving/counting-valleys"
+	cut_the_sticks "problem-solving/cut-the-sticks"
 	day_of_the_programmer "problem-solving/day-of-the-programmer"
 	designer_pdf_viewer "problem-solving/designer-pdf-viewer"
 	diagonal_difference "problem-solving/diagonal-difference"
@@ -38,6 +39,7 @@ import (
 	pangrams "problem-solving/pangrams"
 	picking_numbers "problem-solving/picking-numbers"
 	plus_minus "problem-solving/plus-minus"
+	repeated_string "problem-solving/repeated-string"
 	sales_by_match "problem-solving/sales-by-match"
 	save_the_prisoner "problem-solving/save-the-prisoner"
 	sequence_equation "problem-solving/sequence-equation"
@@ -108,6 +110,8 @@ func main() {
 		46: append_and_delete.Run,
 		47: sherlock_and_squares.Run,
 		48: library_fine.Run,
+		49: cut_the_sticks.Run,
+		50: repeated_string.Run,
 	}
 
 	if len(args) > 0 {
