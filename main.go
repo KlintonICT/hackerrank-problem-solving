@@ -29,6 +29,7 @@ import (
 	hackerrank_in_a_string "problem-solving/hackerrank-in-a-string"
 	into_to_tutorial_challenges "problem-solving/intro-to-tutorial-challenges"
 	jumping_on_the_clouds_revisited "problem-solving/jumping-on-the-clouds-revisited"
+	library_fine "problem-solving/library-fine"
 	mars_exploration "problem-solving/mars-exploration"
 	migratory_birds "problem-solving/migratory-birds"
 	mini_max_sum "problem-solving/mini-max-sum"
@@ -106,6 +107,7 @@ func main() {
 		45: find_digits.Run,
 		46: append_and_delete.Run,
 		47: sherlock_and_squares.Run,
+		48: library_fine.Run,
 	}
 
 	if len(args) > 0 {
