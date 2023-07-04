@@ -5,6 +5,7 @@ import (
 	"os"
 	a_very_big_sum "problem-solving/a-very-big-sum"
 	angry_professor "problem-solving/angry-professor"
+	append_and_delete "problem-solving/append-and-delete"
 	apple_and_orange "problem-solving/apple-and-orange"
 	beautiful_days_at_the_movies "problem-solving/beautiful-days-at-the-movies"
 	between_two_sets "problem-solving/between-two-sets"
@@ -102,6 +103,7 @@ func main() {
 		43: pangrams.Run,
 		44: sequence_equation.Run,
 		45: find_digits.Run,
+		46: append_and_delete.Run,
 	}
 
 	if len(args) > 0 {
