@@ -21,7 +21,7 @@ func catAndMouse(x int32, y int32, z int32) string {
 func Run() {
 	tc := &TestCase{}
 
-	fmt.Println("A Very Big Sum")
+	fmt.Println("Cats and a Mouse")
 
 	for _, tc := range tc.getTestCases() {
 		result := catAndMouse(tc.data.x, tc.data.y, tc.data.z)

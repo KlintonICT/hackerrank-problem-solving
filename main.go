@@ -40,6 +40,7 @@ import (
 	sales_by_match "problem-solving/sales-by-match"
 	save_the_prisoner "problem-solving/save-the-prisoner"
 	sequence_equation "problem-solving/sequence-equation"
+	sherlock_and_squares "problem-solving/sherlock-and-squares"
 	simple_array_sum "problem-solving/simple-array-sum"
 	solve_me_first "problem-solving/solve-me-first"
 	staircase "problem-solving/staircase"
@@ -104,6 +105,7 @@ func main() {
 		44: sequence_equation.Run,
 		45: find_digits.Run,
 		46: append_and_delete.Run,
+		47: sherlock_and_squares.Run,
 	}
 
 	if len(args) > 0 {

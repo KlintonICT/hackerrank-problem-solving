@@ -21,7 +21,7 @@ func hurdleRace(k int32, height []int32) int32 {
 func Run() {
 	tc := &TestCase{}
 
-	fmt.Println("A Very Big Sum")
+	fmt.Println("The Hurdle Race")
 
 	for _, tc := range tc.getTestCases() {
 		result := hurdleRace(tc.data.k, tc.data.height)
