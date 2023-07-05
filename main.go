@@ -29,6 +29,7 @@ import (
 	grading_students "problem-solving/grading-students"
 	hackerrank_in_a_string "problem-solving/hackerrank-in-a-string"
 	into_to_tutorial_challenges "problem-solving/intro-to-tutorial-challenges"
+	jumping_on_the_clouds "problem-solving/jumping-on-the-clouds"
 	jumping_on_the_clouds_revisited "problem-solving/jumping-on-the-clouds-revisited"
 	library_fine "problem-solving/library-fine"
 	mars_exploration "problem-solving/mars-exploration"
@@ -112,6 +113,7 @@ func main() {
 		48: library_fine.Run,
 		49: cut_the_sticks.Run,
 		50: repeated_string.Run,
+		51: jumping_on_the_clouds.Run,
 	}
 
 	if len(args) > 0 {
