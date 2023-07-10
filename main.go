@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	a_very_big_sum "problem-solving/a-very-big-sum"
+	acm_icpc_team "problem-solving/acm-icpc-team"
 	angry_professor "problem-solving/angry-professor"
 	append_and_delete "problem-solving/append-and-delete"
 	apple_and_orange "problem-solving/apple-and-orange"
@@ -116,6 +117,7 @@ func main() {
 		50: repeated_string.Run,
 		51: jumping_on_the_clouds.Run,
 		52: equalize_the_array.Run,
+		53: acm_icpc_team.Run,
 	}
 
 	if len(args) > 0 {
