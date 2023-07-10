@@ -24,6 +24,7 @@ import (
 	divisible_sum_pairs "problem-solving/divisible-sum-pairs"
 	drawing_book "problem-solving/drawing-book"
 	electronics_shop "problem-solving/electronics-shop"
+	equalize_the_array "problem-solving/equalize-the-array"
 	find_digits "problem-solving/find-digits"
 	forming_a_magic_square "problem-solving/forming-a-magic-square"
 	grading_students "problem-solving/grading-students"
@@ -114,6 +115,7 @@ func main() {
 		49: cut_the_sticks.Run,
 		50: repeated_string.Run,
 		51: jumping_on_the_clouds.Run,
+		52: equalize_the_array.Run,
 	}
 
 	if len(args) > 0 {
