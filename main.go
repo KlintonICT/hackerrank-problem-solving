@@ -38,6 +38,7 @@ import (
 	migratory_birds "problem-solving/migratory-birds"
 	mini_max_sum "problem-solving/mini-max-sum"
 	minimum_absolute_difference "problem-solving/minimum-absolute-difference"
+	modified_kaprekar_numbers "problem-solving/modified-kaprekar-numbers"
 	number_line_jumps "problem-solving/number-line-jumps"
 	pangrams "problem-solving/pangrams"
 	picking_numbers "problem-solving/picking-numbers"
@@ -120,6 +121,7 @@ func main() {
 		52: equalize_the_array.Run,
 		53: acm_icpc_team.Run,
 		54: taum_and_bday.Run,
+		55: modified_kaprekar_numbers.Run,
 	}
 
 	if len(args) > 0 {

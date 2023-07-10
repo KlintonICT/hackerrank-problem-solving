@@ -29,7 +29,7 @@ func repeatedString(s string, n int64) int64 {
 func Run() {
 	tc := &TestCase{}
 
-	fmt.Println("A Very Big Sum")
+	fmt.Println("Repeated String")
 
 	for _, tc := range tc.getTestCases() {
 		result := repeatedString(tc.data.s, tc.data.n)
