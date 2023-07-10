@@ -51,6 +51,7 @@ import (
 	solve_me_first "problem-solving/solve-me-first"
 	staircase "problem-solving/staircase"
 	subarray_division "problem-solving/subarray-division"
+	taum_and_bday "problem-solving/taum-and-bday"
 	the_hurdle_race "problem-solving/the-hurdle-race"
 	time_conversion "problem-solving/time-conversion"
 	utopian_tree "problem-solving/utopian-tree"
@@ -118,6 +119,7 @@ func main() {
 		51: jumping_on_the_clouds.Run,
 		52: equalize_the_array.Run,
 		53: acm_icpc_team.Run,
+		54: taum_and_bday.Run,
 	}
 
 	if len(args) > 0 {
