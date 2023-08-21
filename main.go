@@ -9,6 +9,7 @@ import (
 	append_and_delete "problem-solving/append-and-delete"
 	apple_and_orange "problem-solving/apple-and-orange"
 	beautiful_days_at_the_movies "problem-solving/beautiful-days-at-the-movies"
+	beautiful_triplets "problem-solving/beautiful-triplets"
 	between_two_sets "problem-solving/between-two-sets"
 	big_sorting "problem-solving/big-sorting"
 	bill_division "problem-solving/bill-division"
@@ -122,6 +123,7 @@ func main() {
 		53: acm_icpc_team.Run,
 		54: taum_and_bday.Run,
 		55: modified_kaprekar_numbers.Run,
+		56: beautiful_triplets.Run,
 	}
 
 	if len(args) > 0 {
